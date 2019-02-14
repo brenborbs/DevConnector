@@ -109,7 +109,7 @@ export const removeLike = id => dispatch => {
         payload: err.response.data
       })
     );
-};
+}; 
 
 // Add Comment
 export const addComment = (postId, commentData) => dispatch => {
